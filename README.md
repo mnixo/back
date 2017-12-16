@@ -4,7 +4,7 @@ A simple bash script to make backwards navigation in the unix shell as simple as
 ## Motivation
 
 Tired of this?
-````
+```
 ~/this/is/a/very/long/example/path> cd ..
 ~/this/is/a/very/long/example> cd ..
 ~/this/is/a/very/long> cd ..
@@ -14,29 +14,29 @@ Tired of this?
 ```
 
 And/or this?
-````
+```
 ~/this/is/a/very/long/example/path> cd ../../../../..
 ~/this>
 ```
 
 ## Usage
 
-Using `back`with no arguments behaves just like the standard `cd ..` 
-````
+Using `back` with no arguments behaves just like the standard `cd ..`:
+```
 ~/this/is/a/very/long/example/path> back
 ~/this/is/a/very/long/example> back
 ~/this/is/a/very/long>
 ```
 
-Go back faster using a positive integer argument
-````
+Go back faster using a positive integer argument:
+```
 ~/this/is/a/very/long/example/path> back 4
 ~/this/is/a> back 2
 ~/this>
 ```
 
-Or even by specifying the target directory in the current working directory path
-````
+Or even by specifying the target directory in the current working directory path:
+```
 ~/this/is/a/very/long/example/path> back a
 ~/this/is/a> back this
 ~/this>
